@@ -11,6 +11,6 @@ export default function handler(req, res) {
   res.status(200).json({
     name: "My Boy Dev #" + tokenId,
     description: "My Boys Devs is a collection of future developers in crypto",
-    image: image_url + tokenId + ".png",
+    image: image_url + tokenId + ".svg",
   });
 }
